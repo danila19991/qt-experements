@@ -14,7 +14,7 @@ script:
  - qmake -r
  - cd tests/
  - qmake -project
- - qmake tests/qtcreator-experements-tests.pro
+ - qmake qtcreator-experements-tests.pro
  - make
  - ls -R
  - ./qtcreator-experements-tests
