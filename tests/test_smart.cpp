@@ -1,4 +1,6 @@
+#include <QTest>
 #include "test_smart.h"
+#include "../smart.h"
 
 test_smart::test_smart(QObject *parent) : QObject(parent)
 {
@@ -7,7 +9,7 @@ test_smart::test_smart(QObject *parent) : QObject(parent)
 
 void test_smart::sum()
 {
-    Smart a;
+    smart a;
     QCOMPARE(a.sum(1,   0), 1);
     QCOMPARE(a.sum(-1,  1), 0);
     QCOMPARE(a.sum(4,   8), 12);

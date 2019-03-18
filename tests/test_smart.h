@@ -3,8 +3,6 @@
 
 #include <QObject>
 
-#include "../smart.h"
-
 class test_smart : public QObject
 {
     Q_OBJECT
