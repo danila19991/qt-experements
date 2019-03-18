@@ -20,6 +20,6 @@ script:
  - ./qtcreator-experements-tests
  - make clean
  - cd ..
- - make -project
+ - qmake -project
  - qmake qtcreator-experements.pro
  - make
