@@ -14,6 +14,8 @@ signals:
 public slots:
 
 private slots:
+
+    void sum_data();
     void sum();
 };
 

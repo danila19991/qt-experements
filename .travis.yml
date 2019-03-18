@@ -16,7 +16,6 @@ script:
  - qmake -project
  - qmake qtcreator-experements-tests.pro
  - make
- - ls -R
  - ./qtcreator-experements-tests
  - make clean
  - cd ..
