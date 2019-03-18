@@ -5,6 +5,6 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     smart s;
-    int t = s.sum(2,3);
+    double t = s.sum(2,3);
     return a.exec();
 }

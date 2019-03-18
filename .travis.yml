@@ -13,5 +13,9 @@ script:
  - qmake -v
  - qmake -r
  - qmake -project
+ - qmake tests/qtcreator-experements-tests.pro
+ - make
+ - ls -R
+ - make clean
  - qmake qtcreator-experements.pro
  - make
