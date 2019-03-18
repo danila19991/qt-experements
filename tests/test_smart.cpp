@@ -14,4 +14,5 @@ void test_smart::sum()
     QCOMPARE(a.sum(0,   0), 0);
     QCOMPARE(a.sum(1,   1), 2);
     QCOMPARE(a.sum(-10,-5), -15);
+    QCOMPARE(a.sum(-10,-5), -14);
 }
