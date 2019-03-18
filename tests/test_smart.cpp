@@ -20,7 +20,7 @@ void test_smart::sum_data()
     QTest::newRow("sum_data_5") << 1. << 1. << 2.;
     QTest::newRow("sum_data_6") << 0. << 1. << 1.;
     QTest::newRow("sum_data_7") << -10. << -5. << -15.;
-    //QTest::newRow("sum_data_8") << -10.l << -5.l << -14.l;
+    QTest::newRow("sum_data_8") << -10. << -5. << -14.;
 }
 
 void test_smart::sum()
