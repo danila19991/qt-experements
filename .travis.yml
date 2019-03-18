@@ -12,10 +12,14 @@ install:
 script:
  - qmake -v
  - qmake -r
+ - cd tests/
  - qmake -project
  - qmake tests/qtcreator-experements-tests.pro
  - make
  - ls -R
+ - ./qtcreator-experements-tests
  - make clean
+ - cd ..
+ - make -project
  - qmake qtcreator-experements.pro
  - make
