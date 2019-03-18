@@ -18,9 +18,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         test-runner.cpp \
-        smart.cpp \
+        ..\smart.cpp \
         test_smart.cpp
 
-HEADERS += smart.h\
+HEADERS += ..\smart.h\
         test_smart.h
 
