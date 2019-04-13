@@ -2,7 +2,7 @@
 title: 'version'
 name: version
 about: Many changes
-base: develop
+base: master
 ---
 
 # New version
