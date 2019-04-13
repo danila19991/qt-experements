@@ -1,7 +1,9 @@
 QT -= gui
+QT += testlib
 
 CONFIG += c++11 console
 CONFIG -= app_bundle
+CONFIG += testcase
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -15,7 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp \
-        smart.cpp
+        test-runner.cpp \
+        ..\smart.cpp \
+        test_smart.cpp
 
-HEADERS += smart.h
+HEADERS += ..\smart.h\
+        test_smart.h
+
